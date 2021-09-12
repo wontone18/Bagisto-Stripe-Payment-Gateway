@@ -1,0 +1,27 @@
+{
+    "name": "wontonee/stripe",
+    "description": "Laravel bagisto stripe payment gateway from wontonee",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wontonee\\Stripe\\": "src/"
+        }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Wontonee\\Stripe\\Providers\\StripeServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "authors": [
+        {
+            "name": "Saju G",
+            "email": "saju.g@wontonetech.com"
+        }
+    ],
+    "require": {
+		 "stripe/stripe-php": "^7.56.0"
+	}
+}
