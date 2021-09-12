@@ -3,7 +3,7 @@ Stripe is a popular payment gateway. This package provides a additional strong h
 
 ## Automatic Installation
 1. Use command prompt to run this package `composer require wontonee/stripe`
-2. Now open `config/app.php` and register payu provider.
+2. Now open `config/app.php` and register stripe provider.
 ```sh
 'providers' => [
         // Stripe provider
@@ -14,13 +14,13 @@ Stripe is a popular payment gateway. This package provides a additional strong h
 ```sh
   'stripe-apikey'                      => 'Api Key',
 ```
-4. Now go to your bagisto admin section `admin/configuration/sales/paymentmethods` you will see the new payment gateway payu. 
+4. Now go to your bagisto admin section `admin/configuration/sales/paymentmethods` you will see the new payment gateway stripe. 
 5. Now run `php artisan config:cache`
 
 ## Manual Installation
 1. Download the zip folder from the github repository.
 2. Unzip the folder and go to your bagisto application path `package` and create a folder name `Wontonee/Stripe/` upload `src` folder inside this path.
-3. Now open `config/app.php` and register payu provider.
+3. Now open `config/app.php` and register stripe provider.
 ```sh
 'providers' => [
         // Stripe provider
@@ -41,7 +41,7 @@ Stripe is a popular payment gateway. This package provides a additional strong h
 ```
 6. Now open the command prompt and run `composer dump-autoload`.
 7. Now run `php artisan config:cache`
-9. Now go to your bagisto admin section `admin/configuration/sales/paymentmethods` you will see the new payment gateway payu. 
+9. Now go to your bagisto admin section `admin/configuration/sales/paymentmethods` you will see the new payment gateway stripe. 
 
 
 ## Troubleshooting
