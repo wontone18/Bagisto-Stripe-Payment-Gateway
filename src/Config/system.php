@@ -2,27 +2,28 @@
 
 return [
     [
-        'key'    => 'sales.paymentmethods.stripe',
+        'key'    => 'sales.payment_methods.stripe',
+        'info'   => 'Stripe extension created for bagisto by wontonee.',
         'name'   => 'Stripe',
         'sort'   => 7,
         'fields' => [
             [
                 'name'          => 'title',
-                'title'         => 'admin::app.admin.system.title',
+                'title'         => 'Stripe',
                 'type'          => 'text',
                 'validation'    => 'required',
                 'channel_based' => false,
                 'locale_based'  => true,
             ], [
                 'name'          => 'description',
-                'title'         => 'admin::app.admin.system.description',
+                'title'         => 'Stripe Gateway',
                 'type'          => 'textarea',
                 'channel_based' => false,
                 'locale_based'  => true,
             ],
             [
                 'name'          => 'stripe_api_key',
-                'title'         => 'admin::app.admin.system.stripe-apikey',
+                'title'         => 'Strip Secret Key',
                 'type'          => 'text',
                 'validation'    => 'required',
                 'channel_based' => false,
@@ -30,7 +31,7 @@ return [
             ],
              [
                 'name'          => 'active',
-                'title'         => 'admin::app.admin.system.status',
+                'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
                 'type'          => 'boolean',
                 'validation'    => 'required',
                 'channel_based' => false,
