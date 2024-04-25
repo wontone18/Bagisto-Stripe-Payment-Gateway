@@ -7,7 +7,7 @@ Stripe is a popular payment gateway. This package provides strong support for us
 composer require wontonee/stripe
 ```
 
-2. Open `config/app.php` and register the Payu provider.
+2. Open `config/app.php` and register the Stripe provider.
 ```sh
 'providers' => [
         // Stripe provider
