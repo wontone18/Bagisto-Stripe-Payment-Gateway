@@ -22,6 +22,14 @@ return [
                 'locale_based'  => true,
             ],
             [
+                'name'          => 'image',
+                'title'         => 'Logo',
+                'type'          => 'image',
+                'channel_based' => false,
+                'locale_based'  => false,
+                'validation'    => 'mimes:bmp,jpeg,jpg,png,webp',
+            ], 
+            [
                 'name'          => 'stripe_api_key',
                 'title'         => 'Strip Secret Key',
                 'type'          => 'text',
