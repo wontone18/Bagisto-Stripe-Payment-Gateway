@@ -1,7 +1,7 @@
 # Bagisto Stripe Payment Gateway
 Stripe is a popular payment gateway. This package provides strong support for users to integrate the Stripe payment gateway into their Bagisto Laravel e-commerce applications.
 
-**<span style="color:red;">Support Bagisto v2.2. For Bagisto 2.1, you can downgrade the package to 4.2.2</span>**
+**<span style="color:red;">Support Bagisto v2.2. For Bagisto 2.1, you can downgrade the package to 2.0.1</span>**
 
 ## Installation
 1. Use the command prompt to install this package:
