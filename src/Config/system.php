@@ -22,13 +22,13 @@ return [
                 'locale_based'  => true,
             ],
             [
-                'name'          => 'image',
+                'name'          => 'logo_image',
                 'title'         => 'Logo',
                 'type'          => 'image',
                 'channel_based' => false,
                 'locale_based'  => false,
                 'validation'    => 'mimes:bmp,jpeg,jpg,png,webp',
-            ], 
+            ],
             [
                 'name'          => 'stripe_api_key',
                 'title'         => 'Strip Secret Key',
@@ -37,7 +37,7 @@ return [
                 'channel_based' => false,
                 'locale_based'  => true,
             ],
-             [
+            [
                 'name'          => 'active',
                 'title'         => 'admin::app.configuration.index.sales.payment-methods.status',
                 'type'          => 'boolean',
