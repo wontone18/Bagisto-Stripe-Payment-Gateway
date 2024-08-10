@@ -103,9 +103,6 @@ class StripeController extends Controller
    */
   public function failure()
   {
-
-    echo ('jsjjs');
-    exit;
     session()->flash('error', 'Strpe payment either cancelled or transaction failure.');
     return redirect()->route('shop.checkout.cart.index');
   }
