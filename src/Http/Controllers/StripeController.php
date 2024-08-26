@@ -103,7 +103,7 @@ class StripeController extends Controller
    */
   public function failure()
   {
-    session()->flash('error', 'Strpe payment either cancelled or transaction failure.');
+    session()->flash('error', 'Stripe payment either cancelled or transaction failure.');
     return redirect()->route('shop.checkout.cart.index');
   }
 
